@@ -1,0 +1,91 @@
+.measurement-properties {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.expand-all-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.property-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.property-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.property-header.expanded {
+  background-color: #e1e1e1;
+}
+
+.property-name {
+  font-weight: bold;
+}
+
+.expand-icon {
+  font-size: 12px;
+}
+
+.sub-properties {
+  padding: 10px;
+}
+
+.sub-property-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sub-property-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.sub-property-name {
+  flex-grow: 1;
+}
+
+.remove-btn, .add-sub-property-btn {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-sub-property-btn {
+  background-color: #2196F3;
+  margin-top: 10px;
+}
